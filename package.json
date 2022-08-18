@@ -14,21 +14,12 @@
     }
   },
   "scripts": {
-    "build": "yarn tvyw build",
-    "dev": "yarn tvyw",
-    "tvyw": "node node_modules/tvyw/bin/index.js",
-    "preview": "yarn tvyw preview"
+    "build": "vite build",
+    "start": "vite build --mode dev"
+    
   },
   "devDependencies": {
     "@types/node": "18.0.3",
-    "@typescript-eslint/eslint-plugin": "^5.19.0",
-    "@typescript-eslint/parser": "^5.19.0",
-    "concurrently": "7.2.2",
-    "eslint": "^8.19.0",
-    "eslint-config-prettier": "^8.5.0",
-    "prettier": "^2.7.1",
-    "rimraf": "^3.0.2",
-    "tvyw": "link:../../../tvyw/packages/tvyw",
     "typescript": "4.7.4",
     "vite": "2.9.14"
   }
